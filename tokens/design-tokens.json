@@ -2,9 +2,8 @@
   "livelo": {
     "brandColors": {
       "brandColorPrimaryPure": {
-        "description": "",
         "type": "color",
-        "value": "#3E57FF"
+        "value": "#ff7e3d"
       },
       "brandColorSecondaryPure": {
         "description": "",
