@@ -1,5 +1,5 @@
 {
-  "gira": {
+  "livelo": {
     "brandColors": {
       "brandColorPrimaryPure": {
         "description": "",
@@ -412,5 +412,11 @@
         "type": "borderRadius"
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "livelo"
+    ]
   }
 }
