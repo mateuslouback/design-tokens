@@ -3,7 +3,7 @@
     "brandColors": {
       "brandColorPrimaryPure": {
         "type": "color",
-        "value": "#ff3ded"
+        "value": "{brandColors.brandColorPrimaryLight}"
       },
       "brandColorSecondaryPure": {
         "description": "",
