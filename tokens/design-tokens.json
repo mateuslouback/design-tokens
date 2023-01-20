@@ -2960,6 +2960,32 @@
         "value": "#ffe3e3",
         "type": "color"
       }
+    },
+    "level": {
+      "semiopaque": {
+        "value": "80%",
+        "type": "opacity"
+      },
+      "intense": {
+        "value": "64%",
+        "type": "opacity"
+      },
+      "Medium": {
+        "value": "32%",
+        "type": "opacity"
+      },
+      "Light": {
+        "value": "24%",
+        "type": "opacity"
+      },
+      "Weak": {
+        "value": "16%",
+        "type": "opacity"
+      },
+      "Semitransparent": {
+        "value": "8%",
+        "type": "opacity"
+      }
     }
   },
   "$themes": [],
