@@ -52,19 +52,18 @@
         "Surface": {
           "Neutral": {
             "Default": {
-              "value": "#ffffff",
+              "value": "{_Primitives.Neutral_White}",
               "type": "color",
               "description": "_Primitives/Neutral.White"
             },
             "Weak": {
-              "value": "#f7f7f7",
+              "value": "{_Primitives.Neutral_1}",
               "type": "color",
               "description": "_Primitives/Neutral.1"
             },
             "Medium": {
-              "value": "#e3e3e3",
+              "value": "{_Primitives.Neutral_2}",
               "type": "color",
-              "description": "_Primitives/Neutral.2",
               "Interaction": {
                 "Rest": {
                   "value": "#cccccc",
@@ -86,12 +85,12 @@
                   "type": "color",
                   "description": "_Primitives/Neutral.5"
                 }
-              }
+              },
+              "description": "_Primitives/Neutral.2"
             },
             "Strong": {
-              "value": "#757575",
+              "value": "{_Primitives.Neutral_7}",
               "type": "color",
-              "description": "_Primitives/Neutral.7",
               "Interaction": {
                 "Rest": {
                   "value": "#757575",
@@ -113,17 +112,17 @@
                   "type": "color",
                   "description": "_Primitives/Neutral.9"
                 }
-              }
+              },
+              "description": "_Primitives/Neutral.7"
             },
             "Inverted": {
-              "value": "#212121",
+              "value": "{_Primitives.Neutral_11}",
               "type": "color",
               "description": "_Primitives/Neutral.11"
             },
             "On color": {
-              "value": "#ffffff29",
+              "value": "rgba({_Primitives.Neutral_White}, {opacity-level.Weak})",
               "type": "color",
-              "description": "_Primitives/Neutral.",
               "Interaction": {
                 "Rest": {
                   "value": "#ffffff00",
@@ -150,12 +149,174 @@
                   "type": "color",
                   "description": "_Primitives/Neutral."
                 }
+              },
+              "description": "_Primitives/Neutral."
+            },
+            "On color_interation": {
+              "Rest": {
+                "value": "rgba({_Primitives.Neutral_White}, 0)",
+                "type": "color",
+                "Interaction": {
+                  "Rest": {
+                    "value": "#ffffff00",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Hover": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Focus": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Pressed": {
+                    "value": "#ffffff52",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Disable": {
+                    "value": "#ffffff14",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  }
+                },
+                "description": "_Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "rgba({_Primitives.Neutral_White}, {opacity-level.Weak})",
+                "type": "color",
+                "Interaction": {
+                  "Rest": {
+                    "value": "#ffffff00",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Hover": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Focus": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Pressed": {
+                    "value": "#ffffff52",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Disable": {
+                    "value": "#ffffff14",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  }
+                },
+                "description": "_Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "rgba({_Primitives.Neutral_White}, {opacity-level.Weak})",
+                "type": "color",
+                "Interaction": {
+                  "Rest": {
+                    "value": "#ffffff00",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Hover": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Focus": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Pressed": {
+                    "value": "#ffffff52",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Disable": {
+                    "value": "#ffffff14",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  }
+                },
+                "description": "_Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "rgba({_Primitives.Neutral_White}, {opacity-level.Medium})",
+                "type": "color",
+                "Interaction": {
+                  "Rest": {
+                    "value": "#ffffff00",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Hover": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Focus": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Pressed": {
+                    "value": "#ffffff52",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Disable": {
+                    "value": "#ffffff14",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  }
+                },
+                "description": "_Primitives/Neutral."
+              },
+              "Disable": {
+                "value": "rgba({_Primitives.Neutral_White}, {opacity-level.Semitransparent})",
+                "type": "color",
+                "Interaction": {
+                  "Rest": {
+                    "value": "#ffffff00",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Hover": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Focus": {
+                    "value": "#ffffff29",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Pressed": {
+                    "value": "#ffffff52",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  },
+                  "Disable": {
+                    "value": "#ffffff14",
+                    "type": "color",
+                    "description": "_Primitives/Neutral."
+                  }
+                },
+                "description": "_Primitives/Neutral."
               }
             },
             "Transparent": {
-              "value": "#01010129",
+              "value": "rgba({_Primitives.Neutral_Black}, {opacity-level.Weak})",
               "type": "color",
-              "description": "_Primitives/Neutral.",
               "Interaction": {
                 "Rest": {
                   "value": "#01010100",
@@ -177,10 +338,11 @@
                   "type": "color",
                   "description": "_Primitives/Neutral."
                 }
-              }
+              },
+              "description": "_Primitives/Neutral."
             },
             "Disable": {
-              "value": "#e3e3e3",
+              "value": "{_Primitives.Neutral_2}",
               "type": "color",
               "description": "_Primitives/Neutral.2"
             }
