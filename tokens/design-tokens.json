@@ -11,40 +11,40 @@
         },
         "Overlay": {
           "Weak": {
-            "value": "#00000014",
+            "value": "rgba({_Primitives.Neutral_Black}, {opacity-level.Semitransparent})",
             "type": "color"
           },
           "Default": {
-            "value": "#00000029",
+            "value": "rgba({_Primitives.Neutral_Black}, {opacity-level.Weak})",
             "type": "color"
           },
           "Medium": {
-            "value": "#0000003d",
+            "value": "rgba({_Primitives.Neutral_Black}, {opacity-level.Light})",
             "type": "color"
           },
           "Strong": {
-            "value": "#000000a3",
+            "value": "rgba({_Primitives.Neutral_Black}, {opacity-level.Intense})",
             "type": "color"
           }
         },
         "Container": {
           "Neutral": {
-            "value": "#ffffff",
+            "value": "{_Primitives.Neutral_White}",
             "type": "color",
             "description": "_Primitives/Neutral.White"
           },
           "Primary": {
-            "value": "#c7007e",
+            "value": "{_Primitives.Primary_7}",
             "type": "color",
             "description": "_Primitives/Primary.7"
           },
           "Secondary": {
-            "value": "#1d1168",
+            "value": "{_Primitives.Secondary_9}",
             "type": "color",
             "description": "_Primitives/Secondary.9"
           },
           "Strong": {
-            "value": "#4a4a4a",
+            "value": "{_Primitives.Neutral_9}",
             "type": "color",
             "description": "_Primitives/Neutral.9"
           }
@@ -2961,12 +2961,12 @@
         "type": "color"
       }
     },
-    "level": {
-      "semiopaque": {
+    "opacity-level": {
+      "Semiopaque": {
         "value": "80%",
         "type": "opacity"
       },
-      "intense": {
+      "Intense": {
         "value": "64%",
         "type": "opacity"
       },
