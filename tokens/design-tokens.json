@@ -370,44 +370,44 @@
             },
             "Medium_Interaction": {
               "Rest": {
-                "value": "#cccccc",
+                "value": "{_Primitives.Neutral_3}",
                 "type": "color",
                 "description": ".Primitives/Neutral."
               },
               "Hover": {
-                "value": "#b8b8b8",
+                "value": "{_Primitives.Neutral_4}",
                 "type": "color",
                 "description": ".Primitives/Neutral."
               },
               "Focus": {
-                "value": "#b8b8b8",
+                "value": "{_Primitives.Neutral_4}",
                 "type": "color",
                 "description": ".Primitives/Neutral."
               },
               "Pressed": {
-                "value": "#a1a1a1",
+                "value": "{_Primitives.Neutral_5}",
                 "type": "color",
                 "description": ".Primitives/Neutral."
               }
             },
             "Transparent_Interaction": {
               "Rest": {
-                "value": "#00000000",
+                "value": "rgba({_Primitives.Neutral_Black}, 0)",
                 "type": "color",
                 "description": ".Primitives/Neutral."
               },
               "Hover": {
-                "value": "#00000029",
+                "value": "rgba({_Primitives.Neutral_Black}, {opacity-level.Weak})",
                 "type": "color",
                 "description": ".Primitives/Neutral."
               },
               "Focus": {
-                "value": "#00000029",
+                "value": "rgba({_Primitives.Neutral_Black}, {opacity-level.Weak})",
                 "type": "color",
                 "description": ".Primitives/Neutral."
               },
               "Pressed": {
-                "value": "#00000052",
+                "value": "rgba({_Primitives.Neutral_Black}, {opacity-level.Medium})",
                 "type": "color",
                 "description": ".Primitives/Neutral."
               }
