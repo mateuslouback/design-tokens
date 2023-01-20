@@ -120,7 +120,7 @@
               "type": "color",
               "description": "_Primitives/Neutral.11"
             },
-            "On color": {
+            "Oncolor": {
               "value": "rgba({_Primitives.Neutral_White}, {opacity-level.Weak})",
               "type": "color",
               "Interaction": {
@@ -152,7 +152,7 @@
               },
               "description": "_Primitives/Neutral."
             },
-            "On color_interation": {
+            "Oncolor_interation": {
               "Rest": {
                 "value": "rgba({_Primitives.Neutral_White}, 0)",
                 "type": "color",
@@ -345,6 +345,72 @@
               "value": "{_Primitives.Neutral_2}",
               "type": "color",
               "description": "_Primitives/Neutral.2"
+            },
+            "Strong_Interaction": {
+              "Rest": {
+                "value": "{_Primitives.Neutral_7}",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "{_Primitives.Neutral_8}",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "{_Primitives.Neutral_8}",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "{_Primitives.Neutral_9}",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Medium_Interaction": {
+              "Rest": {
+                "value": "#cccccc",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#a1a1a1",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#00000000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#00000029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#00000029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#00000052",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Primary": {
@@ -432,6 +498,72 @@
                   "type": "color",
                   "description": "_Primitives/Primary.4"
                 }
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#e0008e",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#c7007e",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#c7007e",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#a8006b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#e0008e00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#e0008e29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#e0008e29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#e0008e52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#ffc7eb",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#ffa8df",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#ffa8df",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#fa75c9",
+                "type": "color",
+                "description": ".Primitives/Neutral."
               }
             }
           },
@@ -521,6 +653,72 @@
                   "description": "_Primitives/Secondary.5"
                 }
               }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#2f237b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#1d1169",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#1d1169",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#110651",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#2f237b00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#2f237b29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#2f237b29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#2f237b52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#c4c3d5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#a7a6c5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#a7a6c5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#8180b2",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Information": {
@@ -603,6 +801,72 @@
                   "type": "color",
                   "description": "_Primitives/Info.4"
                 }
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#19838f",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#0f5c67",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#0f5c67",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#093e44",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#19838f00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#19838f29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#19838f29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#19838f52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#bdf9ff",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#a3f3fa",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#a3f3fa",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#79e0ec",
+                "type": "color",
+                "description": ".Primitives/Neutral."
               }
             }
           },
@@ -687,6 +951,72 @@
                   "description": "_Primitives/Success.4"
                 }
               }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#667b0a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#2d3701",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#667b0a00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#667b0a29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#667b0a29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#667b0a52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#eef4d2",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#e2eabe",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#e2eabe",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#d3df9a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Warning": {
@@ -769,6 +1099,72 @@
                   "type": "color",
                   "description": "_Primitives/Warning.3"
                 }
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#ffd500",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#ffc800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#ffc800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#ffbb00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#ffbb0000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#ffbb0029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#ffbb0029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#ffbb0052",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#fff9db",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#fff4bd",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#fff4bd",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#ffe97a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
               }
             }
           },
@@ -853,6 +1249,72 @@
                   "description": "_Primitives/Danger.3"
                 }
               }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#eb0000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#c70000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#c70000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#a30000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#eb000000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#eb000029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#eb000029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#eb000052",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#ffe6e6",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#fbcbcb",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#fbcbcb",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#f8aaaa",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           }
         },
@@ -916,6 +1378,40 @@
               "value": "#ffffff",
               "type": "color",
               "description": "_Primitives/Neutral.White"
+            },
+            "On color_Interaction": {
+              "Disable": {
+                "value": "#ffffff29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#4a4a4a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#363636",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#363636",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#212121",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Disable": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Primary": {
@@ -955,6 +1451,28 @@
               "value": "#fa76ca",
               "type": "color",
               "description": "_Primitives/Primary.4"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#c7007e",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#a8006b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#a8006b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#8a0057",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Secondary": {
@@ -994,6 +1512,28 @@
               "value": "#a5a4c4",
               "type": "color",
               "description": "_Primitives/Secondary.4"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#2f237b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#1d1169",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#1d1169",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#110651",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Information": {
@@ -1033,6 +1573,28 @@
               "value": "#28aab9",
               "type": "color",
               "description": "_Primitives/Info.6"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#0f5c67",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#093e44",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#093e44",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#06292d",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Success": {
@@ -1072,6 +1634,28 @@
               "value": "#afc93c",
               "type": "color",
               "description": "_Primitives/Success.6"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#667b0a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#2d3701",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Warning": {
@@ -1111,6 +1695,28 @@
               "value": "#ffbb00",
               "type": "color",
               "description": "_Primitives/Warning.6"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#8a4e00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#703800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#703800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#472400",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Danger": {
@@ -1150,6 +1756,28 @@
               "value": "#f47878",
               "type": "color",
               "description": "_Primitives/Danger.4"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#a30000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#800000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#800000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#5c0000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           }
         },
@@ -1233,6 +1861,60 @@
                   "description": "_Primitives/Neutral."
                 }
               }
+            },
+            "On color_Interaction": {
+              "Rest": {
+                "value": "#ffffffa3",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#ffffff",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#ffffff",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#ffffff",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Disable": {
+                "value": "#ffffff14",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#4a4a4a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#363636",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#363636",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#212121",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Disable": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Primary": {
@@ -1267,6 +1949,28 @@
               "value": "#e1008f52",
               "type": "color",
               "description": "_Primitives/Primary."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#c7007e",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#a8006b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#a8006b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#8a0057",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Secondary": {
@@ -1301,6 +2005,28 @@
               "value": "#615ca152",
               "type": "color",
               "description": "_Primitives/Secondary."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#2f237b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#1d1169",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#1d1169",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#110651",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Information": {
@@ -1335,6 +2061,28 @@
               "value": "#28aab952",
               "type": "color",
               "description": "_Primitives/Info."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#0f5c67",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#093e44",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#093e44",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#06292d",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Success": {
@@ -1369,6 +2117,28 @@
               "value": "#9cb62752",
               "type": "color",
               "description": "_Primitives/Success."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#667b0a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#2d3701",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Warning": {
@@ -1403,6 +2173,28 @@
               "value": "#ffc80052",
               "type": "color",
               "description": "_Primitives/Warning."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#8a4e00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#703800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#703800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#472400",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Danger": {
@@ -1437,6 +2229,28 @@
               "value": "#ed000052",
               "type": "color",
               "description": "_Primitives/Danger."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#a30000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#800000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#800000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#5c0000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           }
         },
@@ -1493,6 +2307,11 @@
             "value": "#110653",
             "type": "color",
             "description": "_Primitives/Secondary.10"
+          },
+          "Neutral": {
+            "value": "#0a0a0a",
+            "type": "color",
+            "description": ".Primitives/Neutral.12"
           }
         },
         "Surface": {
@@ -1629,6 +2448,99 @@
               "value": "#363636",
               "type": "color",
               "description": "_Primitives/Neutral.10"
+            },
+            "On color_Interaction": {
+              "Rest": {
+                "value": "#ffffff00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#ffffff29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#ffffff29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#ffffff52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Disable": {
+                "value": "#ffffff14",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Medium_Interaction": {
+              "Rest": {
+                "value": "#616161",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#4a4a4a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#4a4a4a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#363636",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Strong_Interaction": {
+              "Rest": {
+                "value": "#cccccc",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#a1a1a1",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#ffffff00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#00000029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#00000029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#00000052",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Primary": {
@@ -1716,6 +2628,72 @@
                   "type": "color",
                   "description": "_Primitives/Primary.11"
                 }
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#c7007e",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#a8006b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#a8006b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#8a0057",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#8a0057",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#660041",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#660041",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#47002d",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#c7007e00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#c7007e29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#c7007e29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#c7007e52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
               }
             }
           },
@@ -1805,6 +2783,72 @@
                   "description": "_Primitives/Secondary.12"
                 }
               }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#2f237b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#1d1169",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#1d1169",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#110651",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#110651",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#0a0240",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#0a0240",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#050029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#2f237b00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#2f237b29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#2f237b29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#2f237b52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Information": {
@@ -1887,6 +2931,72 @@
                   "type": "color",
                   "description": "_Primitives/Info.11"
                 }
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#19838f",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#0f5c67",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#0f5c67",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#093e44",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#19838f00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#19838f29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#19838f29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#19838f52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#093e44",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#06292d",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#06292d",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#04191a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
               }
             }
           },
@@ -1971,6 +3081,72 @@
                   "description": "_Primitives/Success.12"
                 }
               }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#667b0a",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#2d3701",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#667b0a00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#667b0a29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#667b0a29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#667b0a52",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#485804",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#2d3701",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#2d3701",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#1a1f00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Warning": {
@@ -2054,6 +3230,72 @@
                   "description": "_Primitives/Warning.12"
                 }
               }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#9e6c00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#9e6100",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#9e6100",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#8a4e00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#a3650000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#a3650029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#a3650029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#a3650052",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#703800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#472400",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#472400",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#1a0c00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Danger": {
@@ -2136,6 +3378,72 @@
                   "type": "color",
                   "description": "_Primitives/Danger.12"
                 }
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#a30000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#800000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#800000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#5c0000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Transparent_Interaction": {
+              "Rest": {
+                "value": "#a3000000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#a3000029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#a3000029",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#a3000052",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Weak_Interaction": {
+              "Rest": {
+                "value": "#5c0000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#380000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#380000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#140000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
               }
             }
           }
@@ -2222,6 +3530,40 @@
               "value": "#212121",
               "type": "color",
               "description": "_Primitives/Neutral.11"
+            },
+            "On color_Interaction": {
+              "Disable": {
+                "value": "#ffffff29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#cccccc",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#a1a1a1",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Disable": {
+                "value": "#363636",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Primary": {
@@ -2261,6 +3603,28 @@
               "value": "#c7007e",
               "type": "color",
               "description": "_Primitives/Primary.7"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#ffa8df",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#fa75c9",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#fa75c9",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#f03dae",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Secondary": {
@@ -2300,6 +3664,28 @@
               "value": "#2f237d",
               "type": "color",
               "description": "_Primitives/Secondary.8"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#a7a6c5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#8180b2",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#8180b2",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#625da2",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Information": {
@@ -2339,6 +3725,28 @@
               "value": "#19828e",
               "type": "color",
               "description": "_Primitives/Info.7"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#79e0ec",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#53c8d5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#53c8d5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#28aab8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Success": {
@@ -2378,6 +3786,28 @@
               "value": "#485704",
               "type": "color",
               "description": "_Primitives/Success.10"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#afc93b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#9bb526",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#9bb526",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#849c16",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Warning": {
@@ -2417,6 +3847,28 @@
               "value": "#9a5800",
               "type": "color",
               "description": "_Primitives/Warning.8"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#ffd500",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#ffc800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#ffc800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#ffbb00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Danger": {
@@ -2456,6 +3908,28 @@
               "value": "#a50000",
               "type": "color",
               "description": "_Primitives/Danger.8"
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#eb0000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#f14b4b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#f14b4b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#f48585",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           }
         },
@@ -2539,6 +4013,60 @@
                   "description": "_Primitives/Neutral."
                 }
               }
+            },
+            "On color_Interaction": {
+              "Rest": {
+                "value": "#ffffffa3",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#ffffff",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#ffffff",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#ffffff",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Disable": {
+                "value": "#ffffff29",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#cccccc",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#b8b8b8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#a1a1a1",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Disable": {
+                "value": "#363636",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Primary": {
@@ -2573,6 +4101,28 @@
               "value": "#e1008f52",
               "type": "color",
               "description": "_Primitives/Primary."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#ffa8df",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#fa75c9",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#fa75c9",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#f03dae",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Secondary": {
@@ -2607,6 +4157,28 @@
               "value": "#453c8f52",
               "type": "color",
               "description": "_Primitives/Secondary."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#a7a6c5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#8180b2",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#8180b2",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#625da2",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Information": {
@@ -2641,6 +4213,28 @@
               "value": "#0f5d6752",
               "type": "color",
               "description": "_Primitives/Info."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#79e0ec",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#53c8d5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#53c8d5",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#28aab8",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Success": {
@@ -2675,6 +4269,28 @@
               "value": "#839c1652",
               "type": "color",
               "description": "_Primitives/Success."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#afc93b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#9bb526",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#9bb526",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#849c16",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Warning": {
@@ -2709,6 +4325,28 @@
               "value": "#a1630052",
               "type": "color",
               "description": "_Primitives/Warning."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#ffd500",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#ffc800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#ffc800",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#ffbb00",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           },
           "Danger": {
@@ -2743,6 +4381,28 @@
               "value": "#a5000052",
               "type": "color",
               "description": "_Primitives/Danger."
+            },
+            "Default_Interaction": {
+              "Rest": {
+                "value": "#f48585",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Hover": {
+                "value": "#f14b4b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Focus": {
+                "value": "#f14b4b",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              },
+              "Pressed": {
+                "value": "#eb0000",
+                "type": "color",
+                "description": ".Primitives/Neutral."
+              }
             }
           }
         },
