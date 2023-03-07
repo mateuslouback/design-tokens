@@ -1705,6 +1705,1656 @@
         "value": "0px",
         "type": "dimension"
       }
+    },
+    "Light": {
+      "Anchor": {
+        "value": "{_Tokens.Light.Bottom.Level 2}",
+        "type": "boxShadow"
+      },
+      "Modals": {
+        "value": "{_Tokens.Light.Bottom.Level 6}",
+        "type": "boxShadow"
+      },
+      "Floating": {
+        "value": "{_Tokens.Light.Bottom.Level 5}",
+        "type": "boxShadow"
+      },
+      "Surfaces": {
+        "Default": {
+          "value": "{_Tokens.Light.Bottom.Level 1}",
+          "type": "boxShadow"
+        },
+        "interaction": {
+          "Rest": {
+            "value": "{_Tokens.Light.Bottom.Level 1}",
+            "type": "boxShadow"
+          },
+          "Hover": {
+            "value": "{_Tokens.Light.Bottom.Level 3}",
+            "type": "boxShadow"
+          }
+        }
+      },
+      "Navigation": {
+        "Bottom": {
+          "value": "{_Tokens.Light.Bottom.Level 4}",
+          "type": "boxShadow"
+        },
+        "Top": {
+          "value": "{_Tokens.Light.Top.Level 4}",
+          "type": "boxShadow"
+        }
+      },
+      "Side Panels": {
+        "Left": {
+          "Default": {
+            "value": "{_Tokens.Light.Left.Level 3}",
+            "type": "boxShadow"
+          },
+          "Overlay": {
+            "value": "{_Tokens.Light.Left.Level 6}",
+            "type": "boxShadow"
+          }
+        },
+        "Right": {
+          "Default": {
+            "value": "{_Tokens.Light.Right.Level 3}",
+            "type": "boxShadow"
+          },
+          "Overlay": {
+            "value": "{_Tokens.Light.Right.Level 6}",
+            "type": "boxShadow"
+          }
+        }
+      }
+    },
+    "Dark": {
+      "Anchor": {
+        "value": "{_Tokens.Dark.Bottom.Level 2}",
+        "type": "boxShadow"
+      },
+      "Modals": {
+        "value": "{_Tokens.Dark.Bottom.Level 6}",
+        "type": "boxShadow"
+      },
+      "Floating": {
+        "value": "{_Tokens.Dark.Bottom.Level 5}",
+        "type": "boxShadow"
+      },
+      "Surfaces": {
+        "Default": {
+          "value": "{_Tokens.Dark.Bottom.Level 1}",
+          "type": "boxShadow"
+        },
+        "interaction": {
+          "Rest": {
+            "value": "{_Tokens.Dark.Bottom.Level 1}",
+            "type": "boxShadow"
+          },
+          "Hover": {
+            "value": "{_Tokens.Dark.Bottom.Level 3}",
+            "type": "boxShadow"
+          }
+        }
+      },
+      "Navigation": {
+        "Bottom": {
+          "value": "{_Tokens.Dark.Bottom.Level 4}",
+          "type": "boxShadow"
+        },
+        "Top": {
+          "value": "{_Tokens.Dark.Top.Level 4}",
+          "type": "boxShadow"
+        }
+      },
+      "Side Panels": {
+        "Left": {
+          "Default": {
+            "value": "{_Tokens.Dark.Left.Level 3}",
+            "type": "boxShadow"
+          },
+          "Overlay": {
+            "value": "{_Tokens.Dark.Left.Level 6}",
+            "type": "boxShadow"
+          }
+        },
+        "Right": {
+          "Default": {
+            "value": "{_Tokens.Dark.Right.Level 3}",
+            "type": "boxShadow"
+          },
+          "Overlay": {
+            "value": "{_Tokens.Dark.Right.Level 6}",
+            "type": "boxShadow"
+          }
+        }
+      }
+    },
+    "_Tokens": {
+      "Light": {
+        "Bottom": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 4,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 2,
+                "blur": 4,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 8,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 4,
+                "blur": 6,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 16,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 8,
+                "blur": 8,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 24,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 12,
+                "blur": 12,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 32,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 16,
+                "blur": 14,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 36,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 18,
+                "blur": 16,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "Top": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -4,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -2,
+                "blur": 4,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -8,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -4,
+                "blur": 6,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -16,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -8,
+                "blur": 8,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -24,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -12,
+                "blur": 12,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -32,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -16,
+                "blur": 14,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -36,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -18,
+                "blur": 16,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "Center": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 4,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 6,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 8,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 12,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 14,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "Left": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -4,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -2,
+                "y": 0,
+                "blur": 4,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -8,
+                "y": 0,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -4,
+                "y": 0,
+                "blur": 6,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -16,
+                "y": 0,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -8,
+                "y": 0,
+                "blur": 8,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -24,
+                "y": 0,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -12,
+                "y": 0,
+                "blur": 12,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -32,
+                "y": 0,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -16,
+                "y": 0,
+                "blur": 14,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -36,
+                "y": 0,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -18,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "Right": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 4,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 2,
+                "y": 0,
+                "blur": 4,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 8,
+                "y": 0,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 4,
+                "y": 0,
+                "blur": 6,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 16,
+                "y": 0,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 8,
+                "y": 0,
+                "blur": 8,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 24,
+                "y": 0,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 12,
+                "y": 0,
+                "blur": 12,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 32,
+                "y": 0,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 16,
+                "y": 0,
+                "blur": 14,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 36,
+                "y": 0,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#000000",
+                "type": "dropShadow",
+                "x": 18,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          }
+        }
+      },
+      "Dark": {
+        "Bottom": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 4,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 2,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff05",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 8,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 4,
+                "blur": 6,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 16,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 8,
+                "blur": 8,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0d",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 24,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 12,
+                "blur": 12,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0f",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 32,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 16,
+                "blur": 14,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff14",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 36,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 18,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff1a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "Center": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff05",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 6,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 8,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0d",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 12,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0f",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 14,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff14",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff1a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "Top": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -4,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -2,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff05",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -8,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -4,
+                "blur": 6,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -16,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -8,
+                "blur": 8,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0d",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -24,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -12,
+                "blur": 12,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0f",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -32,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -16,
+                "blur": 14,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff14",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -36,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": -18,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff1a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "Left": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -4,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -2,
+                "y": 0,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff05",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -8,
+                "y": 0,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -4,
+                "y": 0,
+                "blur": 6,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -16,
+                "y": 0,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -8,
+                "y": 0,
+                "blur": 8,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0d",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -24,
+                "y": 0,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -12,
+                "y": 0,
+                "blur": 12,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0f",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -32,
+                "y": 0,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -16,
+                "y": 0,
+                "blur": 14,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff14",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": -36,
+                "y": 0,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": -18,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff1a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "Right": {
+          "Level 1": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 4,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 2,
+                "y": 0,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff05",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 2": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 8,
+                "y": 0,
+                "blur": 24,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 4,
+                "y": 0,
+                "blur": 6,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 3": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 16,
+                "y": 0,
+                "blur": 32,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 8,
+                "y": 0,
+                "blur": 8,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0d",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 4": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 24,
+                "y": 0,
+                "blur": 48,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 12,
+                "y": 0,
+                "blur": 12,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff0f",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 5": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 32,
+                "y": 0,
+                "blur": 56,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 16,
+                "y": 0,
+                "blur": 14,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff14",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "Level 6": {
+            "value": [
+              {
+                "color": "#00000014",
+                "type": "dropShadow",
+                "x": 36,
+                "y": 0,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#0000000a",
+                "type": "dropShadow",
+                "x": 18,
+                "y": 0,
+                "blur": 16,
+                "spread": 0
+              },
+              {
+                "color": "#ffffff1a",
+                "type": "innerShadow",
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "spread": 30000
+              }
+            ],
+            "type": "boxShadow"
+          }
+        }
+      }
     }
   },
   "Theme_default": {
